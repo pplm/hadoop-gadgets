@@ -1,0 +1,33 @@
+<assembly
+	xmlns="http://maven.apache.org/plugins/maven-assembly-plugin/assembly/1.1.3"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/plugins/maven-assembly-plugin/assembly/1.1.3 http://maven.apache.org/xsd/assembly-1.1.3.xsd">
+	<id>hdfs-traversal</id>
+	<formats>
+		<format>tgz</format>
+	</formats>
+		<files>
+		<file>
+			<source>src/main/resources/core-site.xml</source>
+			<outputDirectory>conf</outputDirectory>
+		</file>
+	</files>
+	<fileSets>
+		<fileSet>
+			<directory>src/main/resources/bin/</directory>
+			<fileMode>0755</fileMode>
+			<outputDirectory>bin</outputDirectory>
+		</fileSet>
+	</fileSets>
+	<baseDirectory>hdfs-ttt</baseDirectory>
+	<includeBaseDirectory>true</includeBaseDirectory>
+
+	<repositories>
+		<repository>
+			<includes>
+				<include>com.k2data.bdpe:mrjob</include>
+			</includes>
+			<outputDirectory>lib</outputDirectory>
+		</repository>
+	</repositories>
+</assembly>

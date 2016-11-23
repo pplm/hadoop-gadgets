@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+
+<!-- Put site-specific property overrides in this file. -->
+
+<configuration>
+	<property>
+		<name>bdpe.record.mr.param.file</name>
+		<value>key_test.csv</value>
+	</property>
+	<property>
+		<name>bdpe.record.mr.param.files</name>
+		<value>key_test2.csv,key_test.csv</value>
+	</property>
+	<property>
+		<name>bdpe.record.mr.param.files.mapping.pattern</name>
+		<value>.*/user/piao/record/test2/.*,.*/user/piao/record/test/.*</value>
+	</property>
+	<property>
+		<name>bdpe.record.mr.separator.item</name>
+		<value>#</value>
+	</property>
+	<property>
+		<name>bdpe.record.mr.separator.kv</name>
+		<value>#</value>
+	</property>
+	<property>
+		<name>bdpe.record.mr.statistics.only</name>
+		<value>false</value>
+	</property>
+	<property>
+		<name>bdpe.mr.temp.delete</name>
+		<value>true</value>
+	</property>
+	<property>
+		<name>bdpe.mr.reduce.task.min</name>
+		<value>2</value>
+	</property>
+</configuration>

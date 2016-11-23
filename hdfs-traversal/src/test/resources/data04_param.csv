@@ -1,0 +1,75 @@
+RE_EN_PID,3,,,,数据库字段,无实际意义,
+ST_ALTITUDE,4,,,6, 高度(m),记录高度(m),m
+ST_BALMCODE,0,,,, 位报警码,记录位报警码,
+ST_BATTERYVOL,4,[0,50],6, 电瓶电压(V),记录电瓶电压(V),V
+ST_BERRORCODE,0,,,, 位故障码,记录位故障码,
+ST_CHECKMARK,3,,,, 检查点       ,数据库中历史数据同步时间戳,
+ST_CMMCTSCH,0,,,, 握手开关量,与显示屏进行通讯功能的变量,
+ST_CONNECTTIME,3,,,, 连接时间,通信程序赋予的设备连接服务器，最新连接时间,
+ST_ENGV,4,[0,3000],6, 发动机转速(rpm), 记录发动机转速(rpm),rpm
+ST_ERRDEALSTA,0,,,, 故障处理状态,记录故障处理状态,
+ST_FLOATRESERV13,4,[0,110],6, 冷却水温度,记录冷却水温度,℃
+ST_FLOATRESERV14,4,[0,350],6, 泵1主压,记录泵1主压,Kg
+ST_FLOATRESERV15,4,[0,350],6, 泵2主压,记录泵2主压,Kg
+ST_FLOATRESERV16,4,[0,1500],6, 比例阀1电流,记录比例阀1电流,mA
+ST_FLOATRESERV17,4,[0,1500],6, 比例阀2电流,记录比例阀2电流,mA
+ST_FLOATRESERV18,4,0,250,6, 机油压力,记录 机油压力,
+ST_FLOATRESERV19,4,[-20,100],6, 液压油温度,记录液压油温度,℃
+ST_FLOATRESERV20,4,[0,5],6, 动作时间/动臂提升, 记录动作时间/动臂提升的先导压力,S
+ST_FLOATRESERV21,4,,,6, 油耗/动臂下降,记录油耗/动臂下降的先导压力,
+ST_FLOATRESERV22,4,[0,350],6, 前泵平均主压,记录前泵平均主压大小，用于功率匹配,Kg
+ST_FLOATRESERV23,4,[0,1500],6, 前泵平均电流,记录前泵平均电流大小，用于功率匹配,mA
+ST_FLOATRESERV24,4,(0,,6, 前泵平均功率,记录前泵平均功率大小，用于功率匹配,
+ST_FLOATRESERV25,4,[0,350],6, 后泵平均主压,记录后泵平均主压大小，用于功率匹配,Kg
+ST_FLOATRESERV26,4,[0,1500],6, 后泵平均电流,记录后泵平均电流大小，用于功率匹配,mA
+ST_FLOATRESERV27,4,(0,,6, 后泵平均功率,记录后泵平均功率大小，用于功率匹配,
+ST_FLOATRESERV28,4,[0,5],6, 油门电压,,V
+ST_FLOATRESERV29,4,[0,5],6,档位电压,,V
+ST_FLOATRESERV30,4,,,6, 浮点数备用30,,
+ST_FLOATRESERV31,4,,,6, 浮点数备用31,,
+ST_FLOATRESERV32,4,,,6, 浮点数备用32,,
+ST_FLOATRESERV33,3,,,,无,,
+ST_FLOATRESERV34,3,,,,无,,
+ST_GPSSTA,0,0,1,, GPS信息状态,记录GPS信息状态,
+ST_LATITUDE,4,,,6, 纬度(°),记录纬度(°),
+ST_LOGINID,3,,,,登录号,产品登录系统的标识号,
+ST_LOGINTIME,3,,,, 登录时间,通信程序赋予的设备登录服务器，最新登录时间,
+ST_LONGITUDE,4,,,6, 经度(°),记录经度(°),
+ST_MA_SERIALNO,3,,,,机器编号,设备出厂的唯一标示号,
+ST_OILLEV,4,,,6, 燃油油位(%),记录燃油油位(%),%
+ST_ORIENTATION,4,,,6, 位移方向,记录设备位移方向,
+ST_PID,3,,,, 主键序列     ,数据库表主键字段,
+ST_RMNTIME,4,,,6, 锁机剩余时间,记录锁机剩余时间,
+ST_SATICUNT,0,,,, 卫星数量,记录卫星数量,
+ST_SGNLQ,4,,,6, 信号质量,记录信号质量的强弱,
+ST_STATE,3,,,, 状态,通信程序赋予的设备在线含义（无业务价值）,
+ST_STEPPOS,0,[1,11],, 档位,记录档位,
+ST_TOTALWKTIME,4,,,6, 总工作时间,记录总工作时间,小时
+ST_UINTRESERV10,0,[0,3],, 工作模式,挖机共有LBSH四种工作模式,
+ST_UINTRESERV11,0,,,, 显示屏操作开关量, 显示屏对设备两种状态切换的变量,
+ST_UINTRESERV12,0,,,, 输入开关量,传感器等电器元件采集的开关量,
+ST_UINTRESERV13,0,,,, 输出开关量,电器部件输出的变量,
+ST_UINTRESERV14,0,[0,2],, 锁机级别,记录锁机级别,
+ST_UINTRESERV15,0,,,, 手机号码1-3位, 记录手机号码1-3位,
+ST_UINTRESERV16,0,,,, 手机号码4-7位, 记录手机号码4-7位,
+ST_UINTRESERV17,0,,,, 手机号码8-11位, 记录手机号码8-11位,
+ST_UINTRESERV18,0,,,, 呼叫状态字,记录呼叫正在连接中还是已经连接成功,
+ST_UINTRESERV19,0,,,, 呼叫指令,记录 呼叫的具体指令,
+ST_UINTRESERV20,0,,,, 保养确认码, 记录保养确认码是否得到确认的标志,
+ST_UINTRESERV21,0,(0,,, 最大失速, 记录发动机最大失速，用于故障分析,
+ST_UINTRESERV22,0,(0,,, 平均失速,记录发送机平均掉速，用于故障分析,
+ST_UINTRESERV23,0,,,, 整型备用23,,
+ST_UINTRESERV24,0,,,, 整型备用24,,
+ST_UINTRESERV25,0,,,, 整型备用25,,
+ST_UINTRESERV26,0,,,, 整型备用26,,
+ST_UINTRESERV27,0,,,, 整型备用27,,
+ST_UINTRESERV28,0,,,, 整型备用28,,
+ST_UINTRESERV29,0,,,, 整型备用29,,
+ST_UINTRESERV30,0,,,, 整型备用30,,
+ST_UINTRESERV31,0,,,, 整型备用31,,
+ST_UINTRESERV32,0,,,, 整型备用32,,
+ST_UPDATETIME,3,,,, 更新时间,通信程序赋予的设备工况数据最新更新时间(数据最新记录时间),
+ST_VELOCITY,4,,,6, 速度(km/h), 记录设备的运行速度(km/h),km/h
+ST_WALMCODE,0,,,, 字报警码,记录字报警码,
+ST_WERRORCODE,0,,,, 字故障码,记录字故障码,
+ST_WKTIME,4,,,6, 本次工作时间,记录最近一次的工作时间,小时

@@ -111,6 +111,11 @@
 				<version>(0,)</version>
 			</dependency>
 			<dependency>
+				<groupId>org.pplm.hadoop.gadgets</groupId>
+				<artifactId>mrjob</artifactId>
+				<version>(0,)</version>
+			</dependency>
+			<dependency>
 				<groupId>junit</groupId>
 				<artifactId>junit</artifactId>
 				<version>${junit.version}</version>

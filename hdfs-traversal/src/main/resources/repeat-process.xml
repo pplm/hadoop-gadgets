@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+
+<!-- Put site-specific property overrides in this file. -->
+
+<configuration>
+	<property>
+		<name>bdpe.mr.repeat.sha.enable</name>
+		<value>true</value>
+	</property>
+	<property>
+		<name>bdpe.mr.repeat.statistics.only</name>
+		<value>false</value>
+	</property>
+	<property>
+		<name>bdpe.mr.temp.delete</name>
+		<value>true</value>
+	</property>
+	<property>
+		<name>bdpe.mr.reduce.task.min</name>
+		<value>2</value>
+	</property>
+</configuration>
